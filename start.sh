@@ -33,4 +33,4 @@ if [ ! -f /var/www/html/moodle/config.php ]; then
   killall mysqld
 fi
 # start all the services
-/usr/local/bin/supervisord -n
+/usr/bin/supervisord -n
